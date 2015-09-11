@@ -1,0 +1,123 @@
+.holder{
+    background-image: url('../images/bg.jpg');
+    width:450px;
+    height:450px;
+    overflow:hidden;
+    position:relative;
+}
+.sliderHolder{
+    width: 425px;
+    padding: 10px;
+}
+
+.open{
+    width:210px;
+    height:125px;
+    position:absolute;
+    top:5px;
+    left:6px;
+    overflow:hidden;
+}
+#topJaw{
+    /*background: url('../images/topJaw.png');*/
+    width:60%;
+    height:60px;
+    position: absolute;
+    top:-40px;
+    left:35px;
+}
+#shock{
+    /*background: url('../images/scare.png');*/
+    width: 161px;
+    height: 175px;
+    position: absolute;
+    top: -23px;
+    left: 19px;
+}
+#bottomJaw{
+    /*background: url('../images/botJaw.png');*/
+    width:60%;
+    height:60px;
+    position: absolute;
+    bottom:-15px;
+    left:35px;
+}
+
+.bomber{
+    width:210px;
+    height:125px;
+    position:absolute;
+    top:5px;
+    left:234px;
+    overflow:hidden;
+}
+#hero{
+    width: 95px;
+    height: 130px;
+    position: absolute;
+    bottom: -2px;
+    left: 111px;
+}
+#bomb{
+    width: 50px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    left: 105px;
+}
+#kaboom{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 38px;
+    left: 81px;
+}
+
+.cnh{
+    width: 437px;
+    height: 153px;
+    position: absolute;
+    top: 147px;
+    left: 6px;
+    overflow:hidden;
+}
+#slide{
+    width: 160px;
+    height: 130px;
+    position: absolute;
+    bottom: -10px;
+    left: -40px;
+}
+
+.run{
+    width: 437px;
+    height: 125px;
+    position: absolute;
+    top: 318px;
+    left: 6px;
+    overflow:hidden;
+}
+#villain{
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    bottom: -13px;
+    left: 293px;
+}
+#victim{
+    width: 70px;
+    height: 74px;
+    position: absolute;
+    bottom: -14px;
+    left: 111px;
+}
+.partition{
+    height: 125px;
+    width: 3px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    position: absolute;
+    top: 0px;
+    left: 208px;
+    background-color: white;
+}
